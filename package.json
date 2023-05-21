@@ -1,5 +1,5 @@
 {
-  "name": "typescript-action",
+  "name": "test-action",
   "version": "0.0.0",
   "private": true,
   "description": "TypeScript template action",
@@ -15,19 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/actions/test-action.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "",
+  "author": "Shane Holder",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.0"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.1",
     "@types/node": "^18.16.3",
     "@typescript-eslint/parser": "^5.59.2",
     "@vercel/ncc": "^0.36.1",
